@@ -2,7 +2,7 @@
 
 # SCDevTest
 
-Create a server (with a library of your choosing). Have an endpoint return a list of skin types: 
+Create a server (with a js library of your choosing). Have an endpoint return a list of skin types: 
 
 ```json
 [
@@ -24,6 +24,6 @@ Create a server (with a library of your choosing). Have an endpoint return a lis
 ]
 ``` 
 
-This endpoint is to be visualized in a react app using redux. Retrieve the list and add it to the redux store. Show a dropdown with the skin types names. When a new skin type is selected, update the redux store and visualize the selected types image. 
+The list returned is to be visualized in a react app using redux. Retrieve the list and add it to the redux store. Show a dropdown with the skin types names. When a new skin type is selected, update the redux store and visualize the selected types image. 
 
 (If you have time setup a db where each array item is a row in a table and create an entity mapping to this table)
